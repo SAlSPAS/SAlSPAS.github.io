@@ -47,7 +47,7 @@ export default function IpodSection() {
           <YouTube
             videoId={playlist[currentSong].youtubeId}
             opts={{ height: '100%', width: '100%', playerVars: { autoplay: 1 } }}
-            onReady={(event) => event.target.pauseVideo()}
+            onReady={(event: any) => event.target.pauseVideo()}
             ref={playerRef}
           />
         </div>
