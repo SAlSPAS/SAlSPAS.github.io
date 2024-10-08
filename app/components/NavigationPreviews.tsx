@@ -15,7 +15,7 @@ export default function NavigationPreviews() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const sections = ['Landing', 'Home', 'Promo', 'iPod','Scene'];
+  const sections = ['Landing', 'Home', 'Promo', 'iPod', 'Scene', 'Thoughts'];
 
   return (
     <div className="fixed right-4 top-1/2 transform -translate-y-1/2">

@@ -8,6 +8,7 @@ import PromoSection from "./components/PromoSection";
 import IpodSection from "./components/IpodSection";
 import NavigationPreviews from "./components/NavigationPreviews";
 import SceneSection from "./components/SceneSection";
+import ThoughtsSection from "./components/ThoughtsSection";
 
 export default function Home() {
   const sectionsRef = useRef<HTMLDivElement>(null);
@@ -24,6 +25,7 @@ export default function Home() {
         <PromoSection />
         <IpodSection />
         <SceneSection />
+        <ThoughtsSection />
         <NavigationPreviews />
 
       </div>
