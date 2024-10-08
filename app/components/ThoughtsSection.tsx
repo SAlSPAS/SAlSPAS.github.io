@@ -19,8 +19,18 @@ const thoughts: string[] = [
     "Once a man, Twice a child",
     "Your atheistic is pathetic",
     "You're only as sick as your secrets",
-    "Cool is my currency"
-
+    "Cool is my currency",
+    "Graves have no bunkbeds",
+    "Make everything UNORTHODOX!!!!",
+    "True artists try to hit targets that the audience can’t see",
+    "Fun to play with not to eat",
+    "Vulnerability is the highest risk , but has the biggest reward",
+    "tryna sound all profound and shit, you want bitches!",
+    "Words get in the way of what you really want to say",
+    "WWW.WORDOFMOUTH",
+    "I want the easy life, but it don’t want me, fresh squeezed juice and days on the sea",
+    "Fools Gold or Kings Gold",
+    "Took orchestra for 6 years only to become World’s Worst Cellist … I have a good bow hold though"
 ];
 
 type ColorClass = 'text-red-500' | 'text-blue-500' | 'text-green-500' | 'text-yellow-500' | 'text-purple-500';
