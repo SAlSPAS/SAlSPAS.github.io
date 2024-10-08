@@ -15,7 +15,7 @@ export default function NavigationPreviews() {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-  const sections = ['Landing', 'Home', 'Promo', 'iPod'];
+  const sections = ['Landing', 'Home', 'Promo', 'iPod','Scene'];
 
   return (
     <div className="fixed right-4 top-1/2 transform -translate-y-1/2">
@@ -23,7 +23,7 @@ export default function NavigationPreviews() {
         <div
           key={section}
           className={`w-12 h-8 mb-2 border border-black cursor-pointer ${
-            index === activeSection ? 'bg-black' : 'bg-white'
+            index === activeSection ? 'bg-black border-white' : 'bg-white'
           }`}
           onClick={() => window.scrollTo({ top: index * window.innerHeight, behavior: 'smooth' })}
         />

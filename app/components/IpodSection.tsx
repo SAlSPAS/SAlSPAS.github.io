@@ -56,7 +56,7 @@ export default function IpodSection() {
             {playlist.map((song, index) => (
               <div
                 key={index}
-                className={`p-2 ${index === currentSong ? 'bg-blue-500 text-white' : 'text-gray-800'}`}
+                className={`p-2 cursor-pointer ${index === currentSong ? 'bg-blue-500 text-white' : 'text-gray-800'}`}
                 onClick={() => setCurrentSong(index)}
               >
                 {song.title}

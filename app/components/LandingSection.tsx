@@ -2,24 +2,24 @@ import Image from "next/image";
 import { useState, useEffect } from "react";
 
 export default function LandingSection() {
-  const images = ["/landing-1.jpg", "/landing-2.jpg", "/landing-3.jpg", "/landing-4.jpg"];
-  const [currentImage, setCurrentImage] = useState(images[0]);
+  // const images = ["/landing-1.jpg", "/landing-2.jpg", "/landing-3.jpg", "/landing-4.jpg"];
+  // const [currentImage, setCurrentImage] = useState(images[0]);
 
-  useEffect(() => {
-    const interval = setInterval(() => {
-      setCurrentImage((prev) => {
-        const currentIndex = images.indexOf(prev);
-        return images[(currentIndex + 1) % images.length];
-      });
-    }, 10000); // Change image every 10 seconds
+  // useEffect(() => {
+  //   const interval = setInterval(() => {
+  //     setCurrentImage((prev) => {
+  //       const currentIndex = images.indexOf(prev);
+  //       return images[(currentIndex + 1) % images.length];
+  //     });
+  //   }, 10000); // Change image every 10 seconds
 
-    return () => clearInterval(interval);
-  }, []);
+  //   return () => clearInterval(interval);
+  // }, []);
 
   return (
     <div className="relative w-full h-screen">
       <Image
-        src={currentImage}
+        src='/landing-1.jpg'
         alt="In Development"
         layout="fill"
         objectFit="cover"
