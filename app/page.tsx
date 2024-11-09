@@ -25,7 +25,7 @@ export default function Home() {
         <PromoSection />
         <IpodSection />
         <SceneSection />
-        <ThoughtsSection />
+        {/* <ThoughtsSection /> */}
         <NavigationPreviews />
 
       </div>
