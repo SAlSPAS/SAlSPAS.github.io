@@ -16,7 +16,7 @@ export default function NavigationPreviews() {
   }, []);
 
   // const sections = ['Landing', 'Home', 'Promo', 'iPod', 'Scene', 'Thoughts'];
-  const sections = ['Landing', 'Home', 'Promo', 'iPod', 'Scene'];
+  const sections = ['Landing', 'Home', 'Promo', 'Scene'];
 
   return (
     <div className="fixed right-4 top-1/2 transform -translate-y-1/2">
