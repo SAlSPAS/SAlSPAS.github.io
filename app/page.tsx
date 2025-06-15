@@ -23,11 +23,11 @@ export default function Home() {
       </Head>
       <div ref={sectionsRef} className="relative w-full">
         <LandingSection />
-        <HomeSection />
+        {/* <HomeSection /> */}
         {/* <PromoSection /> */}
         {/* <IpodSection /> */}
-        <InstaSection />
-        <SceneSection />
+        {/* <InstaSection /> */}
+        {/* <SceneSection /> */}
         {/* <ThoughtsSection /> */}
         {/* <NavigationPreviews /> */}
 

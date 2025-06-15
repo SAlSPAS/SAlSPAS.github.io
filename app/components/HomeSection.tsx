@@ -5,7 +5,7 @@ export default function HomeSection() {
           "HOME"
         </h1>
         <div className="absolute top-4 left-4 font-['Helvetica',_sans-serif] text-[1.5vh] text-black font-bold w-full max-w-sm">
-        We ruin or don’t even start so many things thinking about what the reason is , how to do it , if I’m doing it right or wrong , what will happen, instead of just giving our all. We should act in the moment and not fully know what is going to happen , this is part of the beauty and ugliness of the thing that we call life, which is the most potent art piece ever created. This is why it is “I don’t know, aka, SAIS PAS
+        Oftentimes, as people, we can ruin or not even start something because we are too busy thinking “what is the correct way to do it” or “what will happen if…”.Instead, we should just give our best for love and curiosity we have to explore uncharted territory. We are at our best when we act in the present and not fret about the past or future. Not knowing is part of the beautiful process of discovery and is what makes life, life. Stay curious and continue to search and create the new; it’s okay not to have the answer. SAIS PAS /  I DON’T KNOW
         </div>
         
         <div className="absolute bottom-8 right-4 text-black font-bold text-lg md:text-xl">SAIS PAS</div> 
