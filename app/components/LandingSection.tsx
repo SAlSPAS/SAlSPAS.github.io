@@ -40,7 +40,7 @@ export default function LandingSection() {
 
       {/* Center Image - 3/4 Aspect Ratio */}
       <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-        <a href="https://www.hollywoodfringe.org/projects/11780?tab=tickets" className="block hover:opacity-80 transition-opacity duration-200">
+        <a href="https://www.hollywoodfringe.org/projects/11780?tab=details" className="block hover:opacity-80 transition-opacity duration-200">
           <div className="relative w-48 h-64 md:w-60 md:h-80 lg:w-72 lg:h-96">
             <Image
               src="/flyer.jpg"
@@ -60,9 +60,10 @@ export default function LandingSection() {
 
       {/* Text Blurb - Bottom Right */}
       <div className="absolute bottom-4 right-4 font-['Helvetica',_sans-serif] text-white font-bold max-w-xs md:max-w-sm lg:max-w-md text-xs md:text-sm leading-relaxed">
-        Oftentimes, as people, we can ruin or not even start something because we are too busy thinking "what is the correct way to do it" or "what will happen if…". Instead, we should just give our best for love and curiosity we have to explore uncharted territory. We are at our best when we act in the present and not fret about the past or future. Not knowing is part of the beautiful process of discovery and is what makes life, life. Stay curious and continue to search and create the new; it's okay not to have the answer. 
+      Oftentimes, as people, we can ruin or not even start something because we are too busy thinking “what is the correct way to do…” or “what will happen if…”. 
+Instead, we should just give our best, for the love and curiosity we have to explore uncharted territories. We are at our best when we act in the present and not fret about the past or future. Not knowing is a key part and often the first step in the journey of discovery. Stay curious and continue the quest to create the new. 
         <br /><br />
-        <span className="font-bold">SAIS PAS / I DON'T KNOW</span>
+        <span className="font-bold">SAIS PAS</span>
       </div>
 
       {/* Instagram Icon - Bottom Left */}
